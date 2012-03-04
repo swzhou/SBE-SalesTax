@@ -1,0 +1,83 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+<h2>Basic Tax</h2>
+<dl>
+    <dt>Rate</dt>
+    <dd concordion:assertEquals="getRate()">0.1</dd>
+</dl>
+<dl>
+    <dt>Exemptions</dt>
+    <dd>
+        <table concordion:verifyRows="#exemptProductTypes: getExemptProductTypes()">
+            <thead>
+            <tr>
+                <th concordion:assertEquals="#exemptProductTypes">Product Type</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Book</td>
+            </tr>
+            <tr>
+                <td>Food</td>
+            </tr>
+            <tr>
+                <td>Medical Product</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+<dl>
+    <dt>Examples</dt>
+    <dd>
+        <table concordion:execute="#tax = getTax(#type, #price)">
+            <caption>Exempt products</caption>
+            <thead>
+            <tr>
+                <th concordion:set="#type">Type</th>
+                <th concordion:set="#price">Before-tax Price</th>
+                <th concordion:assertEquals="#tax">Basic Tax</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Book</td>
+                <td>12.49</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Food</td>
+                <td>0.85</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Medical Product</td>
+                <td>0.85</td>
+                <td>0.0</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+    <dd>
+        <table concordion:execute="#tax = getTax(#type, #price)">
+            <caption>Non-exempt products</caption>
+            <thead>
+            <tr>
+                <th concordion:set="#type">Type</th>
+                <th concordion:set="#price">Before-tax Price</th>
+                <th concordion:assertEquals="#tax">Basic Tax</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Digital</td>
+                <td>14.99</td>
+                <td>1.499</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+</body>
+</html>
