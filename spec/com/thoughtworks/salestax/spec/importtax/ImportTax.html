@@ -1,0 +1,50 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+<h2>Import Tax</h2>
+<dl>
+    <dt>Rate</dt>
+    <dd concordion:assertEquals="getRate()">0.05</dd>
+</dl>
+<dl>
+    <dt>Examples</dt>
+    <dd>
+        <table concordion:execute="#tax = getTax(#isImport, #price)">
+            <caption>Import products</caption>
+            <thead>
+            <tr>
+                <th concordion:set="#isImport">Imported?</th>
+                <th concordion:set="#price">Before-tax Price</th>
+                <th concordion:assertEquals="#tax">Import Tax</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>true</td>
+                <td>10.00</td>
+                <td>0.5</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+    <dd>
+        <table concordion:execute="#tax = getTax(#isImport, #price)">
+            <caption>Non-import products</caption>
+            <thead>
+            <tr>
+                <th concordion:set="#isImport">Imported?</th>
+                <th concordion:set="#price">Before-tax Price</th>
+                <th concordion:assertEquals="#tax">Import Tax</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>false</td>
+                <td>14.99</td>
+                <td>0</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+</body>
+</html>
