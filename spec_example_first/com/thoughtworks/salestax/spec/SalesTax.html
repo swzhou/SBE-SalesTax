@@ -1,0 +1,174 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+<h2>Sales Tax</h2>
+<dl>
+    <dt>Non-imported Book, food and medical products are not taxed.</dt>
+    <dd>
+        <table concordion:execute="#product = buildProduct(#productName, #count, #isImport, #rawPrice)">
+            <thead>
+            <tr>
+                <th concordion:set="#count">Count</th>
+                <th concordion:set="#isImport">Import?</th>
+                <th concordion:set="#productName">Product</th>
+                <th concordion:set="#rawPrice">Raw Price</th>
+                <th concordion:assertEquals="#product.getTax()">Tax</th>
+                <th concordion:assertEquals="#product.getTotalPrice()">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>No</td>
+                <td>book</td>
+                <td>12.49</td>
+                <td>0.0</td>
+                <td>12.49</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>No</td>
+                <td>chocolate bar</td>
+                <td>0.85</td>
+                <td>0.0</td>
+                <td>0.85</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>No</td>
+                <td>packet of headache pills</td>
+                <td>9.75</td>
+                <td>0.0</td>
+                <td>9.75</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+<dl>
+    <dt>Tax of non-imported products equals to its import duty exempt book, food and medical products.</dt>
+    <dd>
+        <table concordion:execute="#product = buildProduct(#productName, #count, #isImport, #rawPrice)">
+            <thead>
+            <tr>
+                <th concordion:set="#count">Count</th>
+                <th concordion:set="#isImport">Import?</th>
+                <th concordion:set="#productName">Product</th>
+                <th concordion:set="#rawPrice">Raw Price</th>
+                <th concordion:assertEquals="#product.getBasicTax()">Basic Tax</th>
+                <th concordion:assertEquals="#product.getTax()">Tax</th>
+                <th concordion:assertEquals="#product.getTotalPrice()">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>No</td>
+                <td>music CD</td>
+                <td>14.99</td>
+                <td>1.50</td>
+                <td>1.50</td>
+                <td>16.49</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>No</td>
+                <td>bottle of perfume</td>
+                <td>18.99</td>
+                <td>1.90</td>
+                <td>1.90</td>
+                <td>20.89</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+<dl>
+    <dt>Tax of imported book, food and medical products is its import duty.</dt>
+    <dd>
+        <table concordion:execute="#product = buildProduct(#productName, #count, #isImport, #rawPrice)">
+            <thead>
+            <tr>
+                <th concordion:set="#count">Count</th>
+                <th concordion:set="#isImport">Import?</th>
+                <th concordion:set="#productName">Product</th>
+                <th concordion:set="#rawPrice">Raw Price</th>
+                <th concordion:assertEquals="#product.getImportDuty()">Import Duty</th>
+                <th concordion:assertEquals="#product.getTax()">Tax</th>
+                <th concordion:assertEquals="#product.getTotalPrice()">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Yes</td>
+                <td>box of chocolates</td>
+                <td>11.25</td>
+                <td>0.60</td>
+                <td>0.60</td>
+                <td>11.85</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Yes</td>
+                <td>book</td>
+                <td>11.25</td>
+                <td>0.60</td>
+                <td>0.60</td>
+                <td>11.85</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Yes</td>
+                <td>packet of headache pills</td>
+                <td>11.25</td>
+                <td>0.60</td>
+                <td>0.60</td>
+                <td>11.85</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+<dl>
+    <dt>Tax of imported non book, food and medical product is sum of basic tax and import duty.</dt>
+    <dd>
+        <table concordion:execute="#product = buildProduct(#productName, #count, #isImport, #rawPrice)">
+            <thead>
+            <tr>
+                <th concordion:set="#count">Count</th>
+                <th concordion:set="#isImport">Import?</th>
+                <th concordion:set="#productName">Product</th>
+                <th concordion:set="#rawPrice">Raw Price</th>
+                <th concordion:assertEquals="#product.getBasicTax()">Basic Tax</th>
+                <th concordion:assertEquals="#product.getImportDuty()">Import Duty</th>
+                <th concordion:assertEquals="#product.getTax()">Tax</th>
+                <th concordion:assertEquals="#product.getTotalPrice()">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Yes</td>
+                <td>bottle of perfume</td>
+                <td>47.50</td>
+                <td>4.75</td>
+                <td>2.40</td>
+                <td>7.15</td>
+                <td>54.65</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Yes</td>
+                <td>bottle of perfume</td>
+                <td>27.99</td>
+                <td>2.80</td>
+                <td>1.40</td>
+                <td>4.20</td>
+                <td>32.19</td>
+            </tr>
+            </tbody>
+        </table>
+    </dd>
+</dl>
+</body>
+</html>
