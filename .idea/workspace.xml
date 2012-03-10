@@ -14,7 +14,13 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d196268-329b-45dc-a3eb-457b9dfd37eb" name="Default" comment="" />
+    <list default="true" id="1d196268-329b-45dc-a3eb-457b9dfd37eb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTaxTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SBE_SalesTax.iml" afterPath="$PROJECT_DIR$/SBE_SalesTax.iml" />
+    </list>
     <ignored path="$USER_HOME$/.griffon/" />
     <ignored path="$USER_HOME$/.grails/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +76,44 @@
     <favorites_list name="SBE_SalesTax" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ImportDuty.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/ImportDuty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="65" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTax.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/BasicTax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesTaxTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTaxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="71" selection-start="563" selection-end="563" vertical-scroll-proportion="0.40124223">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesTax.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="46" selection-start="4984" selection-end="4984" vertical-scroll-proportion="-2.0357144">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -84,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SBE_SalesTax.iml" />
-        <option value="$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/example/HelloWorld.html" />
         <option value="$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/example/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/salestax/Product.java" />
         <option value="$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/basictax/BasicTax.html" />
@@ -94,6 +135,14 @@
         <option value="$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/importtax/ImportTaxTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/salestax/ImportTax.java" />
         <option value="$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/importtax/ImportTax.html" />
+        <option value="$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTaxTest.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/RoundingRule.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/TypeDictionary.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/BasicTax.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/ITax.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/Product.java" />
+        <option value="$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/ImportDuty.java" />
+        <option value="$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTax.html" />
       </list>
     </option>
   </component>
@@ -105,17 +154,17 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1148" />
-    <option name="y" value="212" />
-    <option name="width" value="1274" />
-    <option name="height" value="884" />
+    <option name="x" value="1104" />
+    <option name="y" value="1" />
+    <option name="width" value="1385" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state />
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -130,6 +179,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="invalid-module-dependency(module:SBE_SalesTax,&lt; 1.6 &gt;)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages ProjectPane="true" />
@@ -143,39 +197,36 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBE_SalesTax" />
+              <option name="myItemId" value="SBE-SalesTax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBE_SalesTax" />
+              <option name="myItemId" value="SBE-SalesTax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBE_SalesTax" />
+              <option name="myItemId" value="SBE-SalesTax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBE_SalesTax" />
+              <option name="myItemId" value="SBE-SalesTax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SBE_SalesTax" />
+              <option name="myItemId" value="SBE-SalesTax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="src_example_first" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -183,14 +234,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SBE-SalesTax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SBE-SalesTax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec_example_first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
       </pane>
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -198,22 +270,39 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Self\SBE-SalesTax\spec_example_first\com\thoughtworks\salestax\spec" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.thoughtworks.salestax" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.salestax.ImportDuty" />
+      <recent name="com.thoughtworks.salestax.TypeDictionary" />
+      <recent name="com.thoughtworks.salestax.BasicTax" />
+      <recent name="com.thoughtworks.salestax.RoundingRule" />
+      <recent name="BasicTax" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks.salestax" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.salestax" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImportTaxTest">
+  <component name="RunManager" selected="JUnit.SalesTaxTest">
     <configuration default="false" name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -337,6 +426,41 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="SalesTaxTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.salestax.spec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="SBE_SalesTax" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.salestax.spec" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.salestax.spec.SalesTaxTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -350,6 +474,24 @@
       </method>
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="true" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -391,24 +533,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -426,17 +550,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -467,11 +580,23 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HelloWorldTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in SBE_SalesTax" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BasicTaxTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ImportTaxTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SalesTaxTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -505,7 +630,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <configuration useDefault="true">C:\Users\MacX\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -518,31 +643,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1148" y="212" width="1274" height="884" extended-state="0" />
-    <editor active="false" />
+    <frame x="1104" y="1" width="1385" height="1398" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875606" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39983845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875606" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27487764" sideWeight="0.67320263" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25359577" sideWeight="0.67124397" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32875606" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -580,7 +705,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="example first sales tax by SBE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +718,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="example first sales tax by SBE" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -636,54 +762,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/concordion.css">
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/ObjectMethodAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2484599" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SBE_SalesTax.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="604" selection-end="604" vertical-scroll-proportion="0.33811477" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/basictax/BasicTaxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="861" selection-end="861" vertical-scroll-proportion="0.9836066" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/basictax/BasicTax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="59" selection-start="98" selection-end="98" vertical-scroll-proportion="0.09698276">
+        <state line="11" column="28" selection-start="506" selection-end="506" vertical-scroll-proportion="-7.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/importtax/ImportTaxTest.java">
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/OgnlRuntime.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/com/thoughtworks/salestax/spec/importtax/ImportTax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.4827586">
+        <state line="111" column="41" selection-start="7377" selection-end="7377" vertical-scroll-proportion="-9.04">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/salestax/ImportTax.java">
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/ASTMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="382" selection-end="382" vertical-scroll-proportion="0.4918033">
+        <state line="16" column="31" selection-start="537" selection-end="537" vertical-scroll-proportion="-11.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/salestax/BasicTax.java">
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/ASTChain.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="0.07786885">
+        <state line="13" column="31" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/LIB/concordion-1.4.2.jar!/org/concordion/internal/SimpleEvaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="624" selection-end="624" vertical-scroll-proportion="0.3681073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/LIB/concordion-1.4.2.jar!/org/concordion/internal/OgnlEvaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.6795827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/Ognl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.32253313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/LIB/ognl-2.6.9.jar!/ognl/SimpleNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="40" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.35640648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/RoundingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="366" selection-end="370" vertical-scroll-proportion="0.37763974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/ITaxCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="215" selection-end="215" vertical-scroll-proportion="0.24234694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/TypeDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="184" selection-end="184" vertical-scroll-proportion="0.18881987">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="22" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.8347826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="46" selection-start="4984" selection-end="4984" vertical-scroll-proportion="-2.0357144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/ImportDuty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="65" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_example_first/com/thoughtworks/salestax/BasicTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_example_first/com/thoughtworks/salestax/spec/SalesTaxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="71" selection-start="563" selection-end="563" vertical-scroll-proportion="0.40124223">
           <folding />
         </state>
       </provider>
@@ -718,6 +904,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jdk1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -729,7 +916,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -746,6 +933,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
