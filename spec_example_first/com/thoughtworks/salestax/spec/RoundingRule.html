@@ -1,0 +1,31 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+<h2>Rounding Rule</h2>
+<table concordion:execute="init()">
+    <thead>
+    <tr>
+        <th concordion:set="#rawPrice">Raw Price</th>
+        <th concordion:assertEquals="round(#rawPrice)">Rounding Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1.499</td>
+        <td>1.50</td>
+    </tr>
+    <tr>
+        <td>0.7495</td>
+        <td>0.75</td>
+    </tr>
+    <tr>
+        <td>4.75</td>
+        <td>4.75</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1.00</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
