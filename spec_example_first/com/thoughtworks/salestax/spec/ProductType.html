@@ -1,7 +1,7 @@
 <html xmlns:concordion="http://www.concordion.org/2007/concordion">
 <body>
 <h2>Product Type</h2>
-<table concordion:execute="isBook(#name)">
+<table concordion:execute="init()">
     <thead>
     <tr>
         <th concordion:set="#name">Product Name</th>
@@ -24,6 +24,12 @@
         <td>false</td>
     </tr>
     <tr>
+        <td>box of chocolates</td>
+        <td>false</td>
+        <td>true</td>
+        <td>false</td>
+    </tr>
+    <tr>
         <td>packet of headache pills</td>
         <td>false</td>
         <td>false</td>
@@ -39,12 +45,6 @@
         <td>bottle of perfume</td>
         <td>false</td>
         <td>false</td>
-        <td>false</td>
-    </tr>
-    <tr>
-        <td>box of chocolates</td>
-        <td>false</td>
-        <td>true</td>
         <td>false</td>
     </tr>
     </tbody>

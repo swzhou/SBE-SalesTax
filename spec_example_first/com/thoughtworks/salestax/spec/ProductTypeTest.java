@@ -12,6 +12,10 @@ import org.concordion.integration.junit3.ConcordionTestCase;
  */
 public class ProductTypeTest extends ConcordionTestCase{
 
+    public void init(){
+
+    }
+
     public boolean isBook(String name) {
         return TypeDictionary.isBook(name);
     }
