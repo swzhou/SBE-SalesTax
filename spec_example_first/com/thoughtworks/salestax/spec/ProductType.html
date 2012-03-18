@@ -1,0 +1,53 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+<h2>Product Type</h2>
+<table concordion:execute="isBook(#name)">
+    <thead>
+    <tr>
+        <th concordion:set="#name">Product Name</th>
+        <th concordion:assertEquals="isBook(#name)">isBook?</th>
+        <th concordion:assertEquals="isFood(#name)">isFood?</th>
+        <th concordion:assertEquals="isMedicalProduct(#name)">isMedicalProduct?</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>book</td>
+        <td>true</td>
+        <td>false</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>chocolate bar</td>
+        <td>false</td>
+        <td>true</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>packet of headache pills</td>
+        <td>false</td>
+        <td>false</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>music CD</td>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>bottle of perfume</td>
+        <td>false</td>
+        <td>false</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>box of chocolates</td>
+        <td>false</td>
+        <td>true</td>
+        <td>false</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
